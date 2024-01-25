@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 target_major = "Information Technology"
-file_name = f"Minnesota State University {target_major} Comparison Sheet.tsv"
+file_name = f"Minnstate {target_major} Comparison Sheet.tsv"
 
 # Initialize Selenium WebDriver
 driver = webdriver.Firefox()  # Using Firefox driver
